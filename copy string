@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	char s1[20];
+	char s2[20];
+	printf("Enter the strring:");
+	gets(s1);
+	int i;
+	for(i-0;s1[i]!='\0';i++)
+	{
+		s2[i]=s1[i];
+	
+	}
+	printf("original string s1='%s'\n",s1);
+	printf("copied string s2='%s'\n",s2);
+	return 0;
+}
